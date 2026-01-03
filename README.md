@@ -1,5 +1,5 @@
-# 🔍 VeracityStream 
-> **Byte Quest: PS 03** | Fighting AI Hallucinations with Real-Time Verification
+# 🔍 VeracityStream  
+> **Byte Quest: PS 03** | *Fighting AI Hallucinations with Real-Time Verification*
 
 [![Flutter](https://img.shields.io/badge/Frontend-Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Backend-Python_3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org)
@@ -7,47 +7,91 @@
 
 ---
 
-## 🚩 The Challenge: AI's "Confidence Gap"
-Generative AI models are widely used for research and learning, but they often generate factually incorrect information presented with high confidence. **VeracityStream** addresses the critical risks of:
-* **Ghost Citations:** Creation of fake citations and non-existent references that appear legitimate.
-* **Broken Trust:** Difficulty for users to distinguish between reliable and unreliable AI-produced info.
-* **Misinformation Risks:** Potential for legal, ethical, and professional consequences due to "dead-end" links.
+## 🚩 The Challenge: AI’s “Confidence Gap”
 
-## 🧠 System Architecture
-This pipeline illustrates how we transform unstructured AI prose into a verified, color-coded "Veracity Map."
+Generative AI models are widely used for research, learning, and decision-making.  
+However, they often generate **factually incorrect information with high confidence**, leading to trust, legal, and ethical risks.
 
-[Image of a sequence diagram for AI hallucination detection system showing user query, LLM response, claim extraction, web/academic search, and final verification]
+**VeracityStream** is an automated verification layer designed to address:
 
-```mermaid
-graph TD
-    subgraph Client_Layer ["Client Layer (Flutter)"]
-        A[Input AI Text/URL] --> B[Interactive Veracity Map]
-    end
+- **Fabricated Facts** – Claims without empirical evidence  
+- **Ghost Citations** – Fake, broken, or non-existent references  
+- **Misinformation Risks** – Harm caused by unreliable AI-generated content  
 
-    subgraph Intelligence_Engine ["Intelligence Engine (Python)"]
-        C{Decomposition Logic}
-        D[Claim Extractor]
-        E[Link Auditor]
-    end
+---
 
-    subgraph Verification_Sources ["Verification Sources"]
-        F[Academic DB Search]
-        G[Web Status Pinger]
-        H[Semantic Scoring]
-    end
+## 🧠 System Overview
 
-    A --> C
-    C --> D & E
-    D --> F --> H
-    E --> G --> H
-    H --> B
+**Flow:**
 
-    %% Visibility & Modern Styling
-    style Client_Layer fill:#f0f7ff,stroke:#02569B,stroke-width:2px
-    style Intelligence_Engine fill:#fffbf0,stroke:#d4a017,stroke-width:2px
-    style Verification_Sources fill:#f6fff8,stroke:#2ecc71,stroke-width:2px
-    
-    style A fill:#ffffff,stroke:#333
-    style B fill:#02569B,color:#fff,stroke-width:3px
-    style H fill:#2ecc71,color:#fff,stroke-width:2px
+1. User inputs AI-generated text or a URL  
+2. Text is decomposed into individual factual claims  
+3. Claims and citations are verified using academic and web sources  
+4. Results are scored and visualized in a color-coded UI  
 
+---
+
+## 🎯 Key Objectives & Impact
+
+### ✅ Automated Claim Extraction
+Breaks unstructured AI text into independent, testable factual units using NLP.
+
+### 🔗 Citation Audit Engine
+- Validates URLs in real time  
+- Detects fake or broken references  
+- Verifies metadata against academic databases  
+
+### 🎨 Semantic Veracity Mapping
+A Flutter-based UI that highlights:
+- 🟢 Verified claims  
+- 🟡 Uncertain claims  
+- 🔴 False or unverifiable claims  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Flutter (Mobile & Web)
+
+### Backend
+- Python 3.10+
+- FastAPI
+- LangGraph
+
+### Verification APIs
+- OpenAlex (Academic search)
+- Crossref (Citation metadata)
+- SerpAPI (Web verification)
+
+---
+
+## 📊 Success Metrics
+
+- **Detection Accuracy:**  
+  > 90% identification of fabricated citations and invalid references
+
+- **Verification Latency:**  
+  Under 3 seconds per factual claim
+
+- **Source Reliability:**  
+  Preference for peer-reviewed and authoritative sources
+
+---
+
+## 🚀 Build Milestones
+
+- [x] Commit 1: Initial Vision & Strategic Roadmap  
+- [ ] Commit 2: Flutter Project Scaffolding & Theme  
+- [ ] Commit 3: Backend – NLP Claim Extraction  
+- [ ] Commit 4: Citation Metadata Validator  
+- [ ] Commit 5: Real-Time Verification & Scoring API  
+- [ ] Commit 6: Flutter ↔ Backend API Integration  
+- [ ] Commit 7: Flutter Veracity Highlight UI  
+- [ ] Commit 8: Final Polish & Documentation  
+
+---
+
+## 📌 Vision
+
+> *“Trust is the missing layer in AI outputs. VeracityStream makes truth visible.”*
