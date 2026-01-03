@@ -8,27 +8,27 @@
 ---
 
 ## 🎯 Vision
-Generative AI models often produce factually incorrect information presented with high confidence. **VeracityStream** is an automated verification layer designed to:
-* **Decompose AI prose** into individual, testable factual claims.
-* **Audit Citations** to identify "ghost" references and broken links.
-* **Verify against Truth** by cross-referencing authoritative databases to help users distinguish between reliable and unreliable information.
+[cite_start]Generative AI models often produce factually incorrect information presented with high confidence[cite: 39, 40]. **VeracityStream** is an automated verification layer designed to:
+* [cite_start]**Decompose AI prose** into individual, testable factual claims[cite: 43].
+* [cite_start]**Audit Citations** to identify "ghost" references and broken links[cite: 41].
+* [cite_start]**Verify against Truth** by cross-referencing authoritative databases to help users distinguish between reliable and unreliable information[cite: 43].
 
 ## 🧠 System Architecture
-This diagram outlines the flow from raw AI output to a verified "Veracity Map" in the Flutter app.
+This diagram outlines the automated pipeline from raw AI input to a verified user experience.
 
 ```mermaid
 graph TD
-    subgraph "Client Layer (Flutter)"
+    subgraph Client_Layer ["Client Layer (Flutter)"]
         A[Input AI Text/URL] --> B[Interactive Veracity Map]
     end
 
-    subgraph "Intelligence Engine (Python)"
+    subgraph Intelligence_Engine ["Intelligence Engine (Python)"]
         C{Decomposition Logic}
         D[Claim Extractor]
         E[Link Auditor]
     end
 
-    subgraph "Verification Sources"
+    subgraph Verification_Sources ["Verification Sources"]
         F[Academic DB Search]
         G[Web Status Pinger]
         H[Semantic Scoring]
@@ -40,7 +40,11 @@ graph TD
     E --> G --> H
     H --> B
 
-    %% Theming
-    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style B fill:#02569B,stroke:#02569B,color:#fff,stroke-width:3px
-    style H fill:#2ecc71,stroke:#27ae60,color:#fff
+    %% Visibility & Modern Styling
+    style Client_Layer fill:#f0f7ff,stroke:#02569B,stroke-width:2px
+    style Intelligence_Engine fill:#fffbf0,stroke:#d4a017,stroke-width:2px
+    style Verification_Sources fill:#f6fff8,stroke:#2ecc71,stroke-width:2px
+    
+    style A fill:#ffffff,stroke:#333
+    style B fill:#02569B,color:#fff,stroke-width:3px
+    style H fill:#2ecc71,color:#fff,stroke-width:2px
