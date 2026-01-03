@@ -114,7 +114,7 @@ The Flutter app interacts with this primary endpoint:
   <img src="assets/image4.png" alt="Output" width="400">
   <figcaption><b>Fig 3: App Screenshot.</b></figcaption>
 </figure>
----
+
 
 ## ⚖️ Veracity Scoring Logic
 
