@@ -3,7 +3,7 @@
 
 [![Flutter](https://img.shields.io/badge/Frontend-Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Backend-Python_3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org)
-[![Status](https://img.shields.io/badge/Project_Status-Commit_1/8-brightgreen)](#)
+[![Status](https://img.shields.io/badge/Project_Status-Commit_2/8-brightgreen)](#)
 
 ---
 
