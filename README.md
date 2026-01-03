@@ -95,8 +95,16 @@ lib/
   <img src="assets/image2.png" alt="Output" width="800">
   <figcaption><b>Fig 2: Color-coded veracity results highlighting factual accuracy.</b></figcaption>
 </figure>
+---
+## ⚖️ Veracity Scoring Logic
+Our engine calculates a truthfulness score (0-100%) based on a weighted multi-factor analysis:
 
-
+| Factor | Weight | Description |
+| :--- | :--- | :--- |
+| **Link Integrity** | 50% | Percentage of citations that return a valid HTTP 200 status. |
+| **Source Authority** | 30% | Bonus for links from trusted domains (.gov, .edu, .org). |
+| **Citation Coverage** | 20% | Ratio of factual claims supported by at least one link. |
+---
 ## 🎯 Key Objectives & Impact
 
 ### ✅ Automated Claim Extraction
@@ -165,7 +173,7 @@ A Flutter-based UI that highlights:
 - [x] Commit 2: Flutter Project Scaffolding & Theme  
 - [x] Commit 3: Backend – NLP Claim Extraction  
 - [x] Commit 4: Citation Metadata Validator  
-- [ ] Commit 5: Real-Time Verification & Scoring API  
+- [x] Commit 5: Real-Time Verification & Scoring API  
 - [ ] Commit 6: Flutter ↔ Backend API Integration  
 - [ ] Commit 7: Flutter Veracity Highlight UI  
 - [ ] Commit 8: Final Polish & Documentation  
