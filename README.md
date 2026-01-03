@@ -113,7 +113,7 @@ $$V_s = (L \times 0.50) + (A \times 0.30) + (C \times 0.20)$$
 
 <figure align="center">
   <img src="assets/image3.png" alt="Input text string" width="800">
-  <figcaption><b>Fig 1: Example output of a score.</b></figcaption>
+  <figcaption><b>Fig 3: Example output of a score.</b></figcaption>
 </figure>
 
 
