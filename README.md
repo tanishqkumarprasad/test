@@ -87,13 +87,13 @@ lib/
 <p align="left">
   <img src="assets/image1.png"
        alt="Input text string"
-       width="700">
+       width="350">
 </p>
 
 <p align="right">
   <img src="assets/image2.png"
        alt="Output"
-       width="700">
+       width="350">
 </p>
 
 
