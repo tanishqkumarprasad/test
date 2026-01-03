@@ -106,7 +106,7 @@ A Flutter-based UI that highlights:
 ## 🚀 Build Milestones
 
 - [x] Commit 1: Initial Vision & Strategic Roadmap  
-- [ ] Commit 2: Flutter Project Scaffolding & Theme  
+- [x] Commit 2: Flutter Project Scaffolding & Theme  
 - [ ] Commit 3: Backend – NLP Claim Extraction  
 - [ ] Commit 4: Citation Metadata Validator  
 - [ ] Commit 5: Real-Time Verification & Scoring API  
