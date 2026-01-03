@@ -86,6 +86,12 @@ The project follows a **Client-Server** architecture to ensure modularity and sc
 4. **Scoring Engine**: Returns a weighted veracity score to the frontend.
 
 ---
+## ⚙️ Technical Workflow
+1. **Flutter Mobile**: Captures text and sends it to `10.0.2.2:8000/verify`.
+2. **FastAPI Engine**: Uses **spaCy** to extract claims and **Regex** to find URLs.
+3. **Audit System**: Pings URLs in parallel to check HTTP status.
+4. **Scoring Logic**: Calculates a weighted score based on source authority (.gov, .edu).
+---
 ### 📡 Internal API: `POST /verify`
 The Flutter app interacts with this primary endpoint:
 * **Request**: `{ "text": "AI generated string" }`
@@ -183,7 +189,8 @@ A Flutter-based UI that highlights:
 ### Frontend (Flutter)
 1. Navigate to the app directory: `cd veracity_app`
 2. Get packages: `flutter pub get`
-3. Run the app: `flutter run`
+3. **Important**: Ensure `api_service.dart` is set to `10.0.2.2` for Android Emulators.
+4. Run the app: `flutter run`
 ---
 
 ## 📊 Success Metrics
