@@ -85,14 +85,14 @@ lib/
 ---
 ## 🧑‍💻 Some Screeshots
 <figure align="center">
-  <img src="assets/input-text.png" alt="Input text string" width="800">
+  <img src="assets/image1.png" alt="Input text string" width="800">
   <figcaption><i>Fig 1: The input interface for AI-generated text analysis.</i></figcaption>
 </figure>
 
 <br>
 
 <figure align="center">
-  <img src="assets/output-results.png" alt="Output" width="800">
+  <img src="assets/image2.png" alt="Output" width="800">
   <figcaption><i>Fig 2: Color-coded veracity results highlighting factual accuracy.</i></figcaption>
 </figure>
 
