@@ -83,6 +83,19 @@ lib/
 * **Real-time Link Auditing**: Uses `requests` to ping generated citations and identify "Ghost Citations" (404s).
 * **Confidence Mapping**: Differentiates between verified sources and hallucinated references.
 ---
+## 🧑‍💻 Some Screeshots
+<p align="left">
+  <img src="assets/image1.png"
+       alt="Input text string"
+       width="700">
+</p>
+
+<p align="right">
+  <img src="assets/image2.png"
+       alt="Output"
+       width="700">
+</p>
+
 
 ## 🎯 Key Objectives & Impact
 
