@@ -44,7 +44,7 @@ lib/
 │       ├── view/        # VeracityHighlighter and result widgets
 │       └── viewmodel/   # API communication and verification state
 └── main.dart            # App entry point and theme initialization
-
+```
 
 **Flow:**
 
