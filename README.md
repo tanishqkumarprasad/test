@@ -45,6 +45,13 @@ However, they often generate **factually incorrect information with high confide
        width="700">
 </p>
 
+---
+
+## 📂 Project Structure
+* `veracity_app/`: Flutter frontend.
+* `veracity_backend/`: Python FastAPI engine & NLP logic.
+---
+
 ## 📂 Project Structure (Frontend)
 
 Implemented in **Commit 2**, the Flutter application follows a **feature-first architecture with MVVM-inspired separation**, ensuring scalability and clean state management.
@@ -139,7 +146,7 @@ A Flutter-based UI that highlights:
 - [x] Commit 1: Initial Vision & Strategic Roadmap  
 - [x] Commit 2: Flutter Project Scaffolding & Theme  
 - [x] Commit 3: Backend – NLP Claim Extraction  
-- [ ] Commit 4: Citation Metadata Validator  
+- [x] Commit 4: Citation Metadata Validator  
 - [ ] Commit 5: Real-Time Verification & Scoring API  
 - [ ] Commit 6: Flutter ↔ Backend API Integration  
 - [ ] Commit 7: Flutter Veracity Highlight UI  
