@@ -1,4 +1,4 @@
-###Team:** NITP | **Project:** VeracityStream
+##Team:** NITP | **Project:** VeracityStream
 
 # 🔍 Project VeracityStream: Problem Statement
 
