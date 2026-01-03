@@ -28,6 +28,22 @@ However, they often generate **factually incorrect information with high confide
        width="700">
 </p>
 
+## 📂 Project Structure (Frontend)
+Established in **Commit 2**, the Flutter application uses a modular MVVM architecture to ensure scalability and clean state management:
+
+```text
+lib/
+├── core/
+│   ├── constants/       # App-wide strings and Veracity Labels
+│   ├── theme/           # Material 3 Theme with custom Veracity Colors
+│   └── network/         # Dio/Http Client configuration for Backend
+├── features/
+│   └── verification/    # Main feature: AI Text Analysis & UI
+│       ├── models/      # Claim and Source data structures
+│       ├── view/        # Custom VeracityHighlighter widgets
+│       └── viewmodel/   # Logic for API communication and state
+└── main.dart            # App entry and Theme initialization
+
 **Flow:**
 
 1. User inputs AI-generated text or a URL  
