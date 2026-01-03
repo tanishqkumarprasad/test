@@ -8,15 +8,15 @@
 ---
 
 ## 🚩 The Challenge: AI's "Confidence Gap"
-Generative AI is a powerful tool for research and decision-making, but it suffers from a critical flaw: **Hallucinations**. Models often generate:
-* **Fabricated Facts:** Information presented with high confidence that is factually incorrect.
-* **Ghost Citations:** Non-existent references and "dead-end" links that appear legitimate but cannot be verified.
-* **Ethical Risks:** Misinformation that can lead to legal and professional consequences.
-
-**VeracityStream** addresses this by building a transparent verification layer between the AI and the user.
+Generative AI models are widely used for research and learning, but they often generate factually incorrect information presented with high confidence. **VeracityStream** addresses the critical risks of:
+* **Ghost Citations:** Creation of fake citations and non-existent references that appear legitimate.
+* **Broken Trust:** Difficulty for users to distinguish between reliable and unreliable AI-produced info.
+* **Misinformation Risks:** Potential for legal, ethical, and professional consequences due to "dead-end" links.
 
 ## 🧠 System Architecture
-This diagram outlines the automated pipeline from raw AI input to a verified user experience.
+This pipeline illustrates how we transform unstructured AI prose into a verified, color-coded "Veracity Map."
+
+[Image of a sequence diagram for AI hallucination detection system showing user query, LLM response, claim extraction, web/academic search, and final verification]
 
 ```mermaid
 graph TD
