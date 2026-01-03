@@ -8,10 +8,10 @@
 ---
 
 ## 🎯 Vision
-[cite_start]Generative AI models often produce factually incorrect information presented with high confidence[cite: 39, 40]. **VeracityStream** is an automated verification layer designed to:
-* [cite_start]**Decompose AI prose** into individual, testable factual claims[cite: 43].
-* [cite_start]**Audit Citations** to identify "ghost" references and broken links[cite: 41].
-* [cite_start]**Verify against Truth** by cross-referencing authoritative databases to help users distinguish between reliable and unreliable information[cite: 43].
+Generative AI models often produce factually incorrect information presented with high confidence. **VeracityStream** is an automated verification layer designed to:
+* **Decompose AI prose** into individual, testable factual claims.
+* **Audit Citations** to identify "ghost" references and broken links.
+* **Verify against Truth** by cross-referencing authoritative databases to help users distinguish between reliable and unreliable information.
 
 ## 🧠 System Architecture
 This diagram outlines the automated pipeline from raw AI input to a verified user experience.
