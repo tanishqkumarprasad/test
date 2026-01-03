@@ -78,6 +78,11 @@ lib/
 4. Results are scored and visualized in a color-coded UI  
 
 ---
+## ✨ Core Features (Beta)
+* **NLP Claim Decomposition**: Breaks long-form AI responses into individual factual units using spaCy.
+* **Real-time Link Auditing**: Uses `requests` to ping generated citations and identify "Ghost Citations" (404s).
+* **Confidence Mapping**: Differentiates between verified sources and hallucinated references.
+---
 
 ## 🎯 Key Objectives & Impact
 
