@@ -187,7 +187,7 @@ A Flutter-based UI that highlights:
 - [x] Commit 3: Backend – NLP Claim Extraction  
 - [x] Commit 4: Citation Metadata Validator  
 - [x] Commit 5: Real-Time Verification & Scoring API  
-- [ ] Commit 6: Flutter ↔ Backend API Integration  
+- [x] Commit 6: Flutter ↔ Backend API Integration  
 - [ ] Commit 7: Flutter Veracity Highlight UI  
 - [ ] Commit 8: Final Polish & Documentation  
 
