@@ -75,8 +75,21 @@ lib/
 1. User inputs AI-generated text or a URL  
 2. Text is decomposed into individual factual claims  
 3. Claims and citations are verified using academic and web sources  
-4. Results are scored and visualized in a color-coded UI  
+4. Results are scored and visualized in a color-coded UI
+---
+## 🌐 System Architecture
+The project follows a **Client-Server** architecture to ensure modularity and scalability:
 
+1. **Frontend (Flutter)**: Captures user input and sends it via HTTP POST to the backend.
+2. **Service Layer**: Handles JSON serialization and data modeling in Dart.
+3. **Backend (FastAPI)**: Receives text, executes spaCy NLP decomposition, and pings citations.
+4. **Scoring Engine**: Returns a weighted veracity score to the frontend.
+
+---
+### 📡 Internal API: `POST /verify`
+The Flutter app interacts with this primary endpoint:
+* **Request**: `{ "text": "AI generated string" }`
+* **Response**: Includes `veracity_score`, `total_claims`, and a detailed `audit` list of URLs.
 ---
 ## ✨ Core Features (Beta)
 * **NLP Claim Decomposition**: Breaks long-form AI responses into individual factual units using spaCy.
