@@ -3,7 +3,7 @@
 
 [![Flutter](https://img.shields.io/badge/Frontend-Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Backend-Python_3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org)
-[![Status](https://img.shields.io/badge/Project_Status-Commit_2/8-blue)](#)
+[![Status](https://img.shields.io/badge/Project_Status-Commit_1/8-brightgreen)](#)
 
 ---
 
@@ -14,21 +14,21 @@ Generative AI models often produce factually incorrect information presented wit
 * **Verify against Truth** by cross-referencing authoritative databases to help users distinguish between reliable and unreliable information.
 
 ## 🧠 System Architecture
-
+This diagram outlines the flow from raw AI output to a verified "Veracity Map" in the Flutter app.
 
 ```mermaid
 graph TD
-    subgraph "User Interface (Flutter)"
-        A[Input AI Text] --> B[Interactive Veracity Map]
+    subgraph "Client Layer (Flutter)"
+        A[Input AI Text/URL] --> B[Interactive Veracity Map]
     end
 
-    subgraph "Intelligence Layer (Python)"
-        C{Decomposition Engine}
+    subgraph "Intelligence Engine (Python)"
+        C{Decomposition Logic}
         D[Claim Extractor]
         E[Link Auditor]
     end
 
-    subgraph "Verification Pipeline"
+    subgraph "Verification Sources"
         F[Academic DB Search]
         G[Web Status Pinger]
         H[Semantic Scoring]
@@ -40,7 +40,7 @@ graph TD
     E --> G --> H
     H --> B
 
-    %% Styling
+    %% Theming
     style A fill:#f9f9f9,stroke:#333,stroke-width:2px
     style B fill:#02569B,stroke:#02569B,color:#fff,stroke-width:3px
     style H fill:#2ecc71,stroke:#27ae60,color:#fff
