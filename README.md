@@ -84,16 +84,16 @@ lib/
 * **Confidence Mapping**: Differentiates between verified sources and hallucinated references.
 ---
 ## 🧑‍💻 Some Screeshots
-<p align="left">
+<p align="centre">
   <img src="assets/image1.png"
        alt="Input text string"
-       width="350">
+       width="800">
 </p>
 
-<p align="right">
+<p align="centre">
   <img src="assets/image2.png"
        alt="Output"
-       width="350">
+       width="800">
 </p>
 
 
