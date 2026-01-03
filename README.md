@@ -51,18 +51,3 @@ graph TD
     style B fill:#02569B,color:#fff,stroke-width:3px
     style H fill:#2ecc71,color:#fff,stroke-width:2px
 
-## 🎯 Key Objectives & Impact
-
-### ✅ Automated Claim Extraction
-Uses NLP techniques to decompose unstructured AI-generated text into individual, testable factual claims.
-
-### 🔗 Citation Audit Engine
-- Real-time URL validation  
-- Detection of broken, fake, or non-existent citations  
-- Metadata verification against academic databases  
-
-### 🎨 Semantic Veracity Mapping
-A Flutter-based color-coded UI that visually distinguishes:
-- 🟢 Verified claims  
-- 🟡 Uncertain or weakly supported claims  
-- 🔴 False or unverifiable claims  
