@@ -111,6 +111,11 @@ $$V_s = (L \times 0.50) + (A \times 0.30) + (C \times 0.20)$$
 
 > **Note:** A score below **40%** triggers a 🔴 High Risk alert, while scores above **85%** are marked as 🟢 Verified.
 
+<figure align="center">
+  <img src="assets/image3.png" alt="Input text string" width="800">
+  <figcaption><b>Fig 1: Example output of a score.</b></figcaption>
+</figure>
+
 
 ---
 ## 🎯 Key Objectives & Impact
