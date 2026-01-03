@@ -23,7 +23,7 @@ Build a system that can **detect, flag, and verify** factual claims and citation
 [![Status](https://img.shields.io/badge/Project_Status-Commit_7/8-brightgreen)](#)
 
 ---
-# 4. Deployed Link
+# 💡 Deployed Link
 > **[🔗 Access Project Drive (APK & Source)](https://drive.google.com/drive/folders/1c4LCgsUCGYf2QVPUdP9XZb0je2rBJB88?usp=sharing)**
 
 | Resource | Description |
