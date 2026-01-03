@@ -1,3 +1,5 @@
+**Team:** GFGBQ-Team-nit | **Project:** VeracityStream
+
 # 🔍 Project VeracityStream: Problem Statement
 
 ## 🚨 The Challenge
