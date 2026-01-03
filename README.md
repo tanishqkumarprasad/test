@@ -21,7 +21,6 @@ However, they often generate **factually incorrect information with high confide
 ---
 
 ## 🧠 System Overview
-## 🧠 System Overview
 
 <p align="center">
   <img src="assets/veracitystream-architecture.png"
