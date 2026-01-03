@@ -23,6 +23,17 @@ Build a system that can **detect, flag, and verify** factual claims and citation
 [![Status](https://img.shields.io/badge/Project_Status-Commit_7/8-brightgreen)](#)
 
 ---
+# 4. Deployed Link
+> **[🔗 Access Project Drive (APK & Source)](https://drive.google.com/drive/folders/1c4LCgsUCGYf2QVPUdP9XZb0je2rBJB88?usp=sharing)**
+
+| Resource | Description |
+| :--- | :--- |
+| 📱 **Android APK** | Pre-built binary for manual testing and UI evaluation. |
+| 🎥 **Walkthrough** | A 2-minute demonstration of the full-stack verification flow. |
+| 📂 **Source Archive** | Complete repository backup for offline review. |
+| 📄 **Setup Guide** | Step-by-step instructions for local FastAPI & Flutter execution. |
+
+---
 
 ## 🚩 The Challenge: AI’s “Confidence Gap”
 
@@ -215,7 +226,7 @@ A Flutter-based UI that highlights:
 - [x] Commit 5: Real-Time Verification & Scoring API  
 - [x] Commit 6: Flutter ↔ Backend API Integration  
 - [x] Commit 7: Flutter Veracity Highlight UI  
-- [ ] Commit 8: Final Polish & Documentation  
+- [x] Commit 8: Final Polish & Documentation  
 
 ---
 
