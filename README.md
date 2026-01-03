@@ -2,7 +2,7 @@
 
 # 🔍 Project VeracityStream: Problem Statement
 
-## 🚨 The Challenge
+## 🚨 The Challenge (Problem Statement 3)
 Generative AI models are widely used for research, learning, and decision-making. However, these models often generate **factually incorrect information** presented with high confidence.
 
 A critical extension of this problem is the creation of **fake citations, non-existent references, and broken links**, which appear legitimate but cannot be verified. This makes it difficult for users to trust AI-generated content and may lead to:
