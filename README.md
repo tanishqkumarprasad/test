@@ -121,7 +121,7 @@ A Flutter-based UI that highlights:
 
 - [x] Commit 1: Initial Vision & Strategic Roadmap  
 - [x] Commit 2: Flutter Project Scaffolding & Theme  
-- [ ] Commit 3: Backend – NLP Claim Extraction  
+- [x] Commit 3: Backend – NLP Claim Extraction  
 - [ ] Commit 4: Citation Metadata Validator  
 - [ ] Commit 5: Real-Time Verification & Scoring API  
 - [ ] Commit 6: Flutter ↔ Backend API Integration  
