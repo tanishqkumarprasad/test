@@ -7,11 +7,13 @@
 
 ---
 
-## 🎯 Vision
-Generative AI models often produce factually incorrect information presented with high confidence. **VeracityStream** is an automated verification layer designed to:
-* **Decompose AI prose** into individual, testable factual claims.
-* **Audit Citations** to identify "ghost" references and broken links.
-* **Verify against Truth** by cross-referencing authoritative databases to help users distinguish between reliable and unreliable information.
+## 🚩 The Challenge: AI's "Confidence Gap"
+Generative AI is a powerful tool for research and decision-making, but it suffers from a critical flaw: **Hallucinations**. Models often generate:
+* **Fabricated Facts:** Information presented with high confidence that is factually incorrect.
+* **Ghost Citations:** Non-existent references and "dead-end" links that appear legitimate but cannot be verified.
+* **Ethical Risks:** Misinformation that can lead to legal and professional consequences.
+
+**VeracityStream** addresses this by building a transparent verification layer between the AI and the user.
 
 ## 🧠 System Architecture
 This diagram outlines the automated pipeline from raw AI input to a verified user experience.
