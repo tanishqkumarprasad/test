@@ -108,6 +108,12 @@ The Flutter app interacts with this primary endpoint:
   <img src="assets/image2.png" alt="Output" width="800">
   <figcaption><b>Fig 2: Color-coded veracity results highlighting factual accuracy.</b></figcaption>
 </figure>
+<br>
+
+<figure align="center">
+  <img src="assets/image4.png" alt="Output" width="800">
+  <figcaption><b>Fig 3: App Screenshot.</b></figcaption>
+</figure>
 ---
 
 ## ⚖️ Veracity Scoring Logic
@@ -201,7 +207,7 @@ A Flutter-based UI that highlights:
 - [x] Commit 4: Citation Metadata Validator  
 - [x] Commit 5: Real-Time Verification & Scoring API  
 - [x] Commit 6: Flutter ↔ Backend API Integration  
-- [ ] Commit 7: Flutter Veracity Highlight UI  
+- [x] Commit 7: Flutter Veracity Highlight UI  
 - [ ] Commit 8: Final Polish & Documentation  
 
 ---
