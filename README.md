@@ -96,14 +96,22 @@ lib/
   <figcaption><b>Fig 2: Color-coded veracity results highlighting factual accuracy.</b></figcaption>
 </figure>
 ---
-## ⚖️ Veracity Scoring Logic
-Our engine calculates a truthfulness score (0-100%) based on a weighted multi-factor analysis:
 
-| Factor | Weight | Description |
-| :--- | :--- | :--- |
-| **Link Integrity** | 50% | Percentage of citations that return a valid HTTP 200 status. |
-| **Source Authority** | 30% | Bonus for links from trusted domains (.gov, .edu, .org). |
-| **Citation Coverage** | 20% | Ratio of factual claims supported by at least one link. |
+## ⚖️ Veracity Scoring Logic
+
+To eliminate AI hallucinations, **VeracityStream** calculates a truthfulness score ($V_s$) for every input using a weighted multi-factor analysis:
+
+$$V_s = (L \times 0.50) + (A \times 0.30) + (C \times 0.20)$$
+
+| Factor | Weight | Metric | Description |
+| :--- | :---: | :---: | :--- |
+| **Link Integrity ($L$)** | **50%** | `HTTP 200 OK` | Validates that citations are not "Ghost Links" (fabricated URLs). |
+| **Source Authority ($A$)** | **30%** | `Domain Trust` | Assigns higher confidence to `.gov`, `.edu`, and peer-reviewed sources. |
+| **Citation Coverage ($C$)** | **20%** | `Claim Ratio` | Measures the density of verified claims vs. total assertions. |
+
+> **Note:** A score below **40%** triggers a 🔴 High Risk alert, while scores above **85%** are marked as 🟢 Verified.
+
+
 ---
 ## 🎯 Key Objectives & Impact
 
