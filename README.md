@@ -89,6 +89,20 @@ A Flutter-based UI that highlights:
 - SerpAPI (Web verification)
 
 ---
+## ⚙️ Setup & Installation
+
+### Backend (Python/FastAPI)
+1. Navigate to the backend directory: `cd veracity_backend`
+2. Create a virtual environment: `python3 -m venv venv`
+3. Activate the environment: `source venv/bin/activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Run the server: `python main.py`
+
+### Frontend (Flutter)
+1. Navigate to the app directory: `cd veracity_app`
+2. Get packages: `flutter pub get`
+3. Run the app: `flutter run`
+---
 
 ## 📊 Success Metrics
 
